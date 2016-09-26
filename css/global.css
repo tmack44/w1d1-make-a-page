@@ -2,12 +2,14 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     background-color: rgb(60, 17, 5);
-    background-image: url("http://atodmagazine.com/wp-content/uploads/2015/09/bourbon.jpg");
+    background-image: url("/images/glass.jpg");
+   background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 50px;
-    text-align: center;
 }
 
 .main-container {
+   position: relative;
     padding: 20px;
     background-color: #F39E2F;
     border-radius: 27px;
@@ -15,13 +17,30 @@ body {
     opacity: 0.75;
     width: 40%;
     text-align: center;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+header {
+   position: fixed;
+   left:0;
+   top:0;
+   width:100%;
+   background:#A42E12;
+   opacity: 0.75;
+   text-align: center;
 }
 
 footer {
-    position: fixed;
-   left:0px;
-   bottom:0px;
+   position: fixed;
+   left:0;
+   bottom:0;
    width:100%;
    background:#A42E12;
-    opacity: 0.75;
+   opacity: 0.75;
+   text-align: center;
+}
+
+img {
+   border-radius: 15px;
+   padding: 10px;
 }
