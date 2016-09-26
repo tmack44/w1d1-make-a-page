@@ -1,17 +1,10 @@
 body {
-    background-color: #CA7DF9;
+    background-color: rgb(60, 17, 5);
+    background-image: url("http://atodmagazine.com/wp-content/uploads/2015/09/bourbon.jpg");
     padding: 50px;
-}
-
-h1 {
-    color: red;
 }
 
 .container {
     padding: 20px;
     background-color: #724CF9;
-}
-
-#first {
-    color: blue;
 }
