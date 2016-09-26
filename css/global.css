@@ -1,7 +1,10 @@
 body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
     background-color: rgb(60, 17, 5);
     background-image: url("http://atodmagazine.com/wp-content/uploads/2015/09/bourbon.jpg");
     padding: 50px;
+    text-align: center;
 }
 
 .main-container {
@@ -11,5 +14,14 @@ body {
     box-shadow: 0 0 5px #000000;
     opacity: 0.75;
     width: 40%;
+    text-align: center;
+}
 
+footer {
+    position: fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+   background:#A42E12;
+    opacity: 0.75;
 }
