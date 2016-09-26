@@ -1,0 +1,17 @@
+body {
+    background-color: #CA7DF9;
+    padding: 50px;
+}
+
+h1 {
+    color: red;
+}
+
+.container {
+    padding: 20px;
+    background-color: #724CF9;
+}
+
+#first {
+    color: blue;
+}
