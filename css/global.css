@@ -4,7 +4,12 @@ body {
     padding: 50px;
 }
 
-.container {
+.main-container {
     padding: 20px;
-    background-color: #724CF9;
+    background-color: #F39E2F;
+    border-radius: 27px;
+    box-shadow: 0 0 5px #000000;
+    opacity: 0.75;
+    width: 40%;
+
 }
