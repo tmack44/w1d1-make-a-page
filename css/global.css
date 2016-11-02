@@ -8,12 +8,11 @@ body {
     background-image: url("/images/glass.jpg");
    background-repeat: no-repeat;
     background-attachment: fixed;
-    /*background-size: contain;*/
     padding: 50px;
 }
 
 .main-container {
-   position: relative;
+    position: relative;
     padding: 20px;
     background-color: #F39E2F;
     border-radius: 27px;
